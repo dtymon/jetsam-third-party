@@ -1,4 +1,9 @@
 {
+  "name": "@jetsam/third-party",
+  "version": "0.0.1",
+  "description": "jetsam - Centralised 3rd-party dependency management for jetsam packages",
+  "repository": "github:dtymon/jetsam-third-party",
+  "bugs": "https://github.com/dtymon/jetsam-third-party/issues",
   "author": "David Tymon",
   "license": "MIT",
   "keywords": [
@@ -25,7 +30,8 @@
   },
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./uuid": "./dist/uuid/index.js"
   },
   "scripts": {
     "build": "yarn clean && yarn compile && yarn build:dist",
@@ -41,5 +47,12 @@
     "pre-commit": "yarn build && yarn test && yarn lint && yarn jetsam audit --minimum high",
     "reinstall": "rimraf node_modules yarn.lock; yarn install",
     "release": "yarn jetsam release"
+  },
+  "devDependencies": {
+    "@jetsam/tooling": "^0.0.5"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.1",
+    "uuid": "^8.3.2"
   }
 }
