@@ -61,7 +61,7 @@
     "release": "yarn jetsam release"
   },
   "devDependencies": {
-    "@jetsam/tooling": "^1.1.1"
+    "@jetsam/tooling": "^1.2.0"
   },
   "dependencies": {
     "@types/lodash": "^4.14.175",

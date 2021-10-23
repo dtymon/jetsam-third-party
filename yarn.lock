@@ -540,10 +540,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@jetsam/tooling@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@jetsam/tooling/-/tooling-1.1.1.tgz#51435c588dbcb8ac83d70b836c8a5d96164e16f4"
-  integrity sha512-B5qBHNewVyhZqrDMOFNNp9W4DkCT6Qbr/aXx7H0/J/qqfnWPRnl+sIDT+CSvPd2XsTFBsUVpUbPiP1xx8Xjoyg==
+"@jetsam/tooling@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@jetsam/tooling/-/tooling-1.2.0.tgz#7e650a7a5b22dc917b1583a7f17d995e485aa374"
+  integrity sha512-RI4eQBT7Eg0L1kicKwKNJCAjTFMacAQxM2TXLdxfU5aJTZ8KaWzrmG4IWI9r1U3aDPg28s+9E4XN8J6uf2eDJA==
   dependencies:
     "@microsoft/tsdoc" "^0.13.2"
     "@microsoft/tsdoc-config" "^0.15.2"
@@ -552,13 +552,13 @@
     "@types/jest-when" "^2.7.3"
     "@types/klaw" "^3.0.3"
     "@types/mkdirp" "^1.0.2"
-    "@types/node" "^14.17.28"
+    "@types/node" "^14.17.29"
     "@types/rimraf" "^3.0.2"
     "@types/yargs" "^17.0.4"
     "@typescript-eslint/eslint-plugin" "^5.1.0"
     "@typescript-eslint/parser" "^5.1.0"
     chalk "^4.1.2"
-    eslint "^8.0.1"
+    eslint "^8.1.0"
     eslint-config-prettier "^8.3.0"
     eslint-plugin-prettier "^4.0.0"
     eslint-plugin-tsdoc "^0.2.14"
@@ -575,7 +575,7 @@
     prettier "^2.4.1"
     rimraf "^3.0.2"
     ts-jest "^27.0.7"
-    ts-node "^10.3.1"
+    ts-node "^10.4.0"
     tsconfig-paths "^3.11.0"
     typedoc "^0.22.6"
     typescript "^4.4.4"
@@ -819,7 +819,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.4.tgz#90771124822d6663814f7c1c9b45a6654d8fd964"
   integrity sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==
 
-"@types/node@^14.17.28":
+"@types/node@^14.17.29":
   version "14.17.29"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.29.tgz#44a774fa2858efa4d039dd9051b51160e8295c70"
   integrity sha512-sd4CHI9eTJXTH2vF3RGtGkqvWRwhsSSUFsXD4oG38GZzSZ0tNPbWikd2AbOAcKxCXhOg57fL8FPxjpfSzb2pIQ==
@@ -1655,7 +1655,7 @@ eslint-visitor-keys@^3.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.0.0.tgz#e32e99c6cdc2eb063f204eda5db67bfe58bb4186"
   integrity sha512-mJOZa35trBTb3IyRmo8xmKBZlxf+N7OnUl4+ZhJHs/r+0770Wh/LEACE2pqMGMe27G/4y8P2bYGk4J70IC5k1Q==
 
-eslint@^8.0.1:
+eslint@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.1.0.tgz#00f1f7dbf4134f26588e6c9f2efe970760f64664"
   integrity sha512-JZvNneArGSUsluHWJ8g8MMs3CfIEzwaLx9KyH4tZ2i+R2/rPWzL8c0zg3rHdwYVpN/1sB9gqnjHwz9HoeJpGHw==
@@ -3751,7 +3751,7 @@ ts-jest@^27.0.7:
     semver "7.x"
     yargs-parser "20.x"
 
-ts-node@^10.3.1:
+ts-node@^10.4.0:
   version "10.4.0"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.4.0.tgz#680f88945885f4e6cf450e7f0d6223dd404895f7"
   integrity sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==
