@@ -1,6 +1,6 @@
 {
   "name": "@jetsam/third-party",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "jetsam - Centralised 3rd-party dependency management for jetsam packages",
   "repository": "github:dtymon/jetsam-third-party",
   "bugs": "https://github.com/dtymon/jetsam-third-party/issues",
@@ -31,7 +31,19 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
-    "./uuid": "./dist/uuid/index.js"
+    "./axios": "./dist/axios/index.js",
+    "./chalk": "./dist/chalk/index.js",
+    "./fast-json-stable-stringify": "./dist/fast-json-stable-stringify/index.js",
+    "./fs-extra": "./dist/fs-extra/index.js",
+    "./http-status-codes": "./dist/http-status-codes/index.js",
+    "./joi": "./dist/joi/index.js",
+    "./json5": "./dist/json5/index.js",
+    "./lodash": "./dist/lodash/index.js",
+    "./luxon": "./dist/luxon/index.js",
+    "./mkdirp": "./dist/mkdirp/index.js",
+    "./prettier": "./dist/prettier/index.js",
+    "./uuid": "./dist/uuid/index.js",
+    "./yargs": "./dist/yargs/index.js"
   },
   "scripts": {
     "build": "yarn clean && yarn compile && yarn build:dist",
@@ -49,10 +61,25 @@
     "release": "yarn jetsam release"
   },
   "devDependencies": {
-    "@jetsam/tooling": "^1.1.1"
+    "@jetsam/tooling": "^1.2.0"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.175",
+    "@types/luxon": "^2.0.5",
+    "@types/prettier": "^2.4.1",
     "@types/uuid": "^8.3.1",
-    "uuid": "^8.3.2"
+    "@types/yargs": "^17.0.4",
+    "axios": "^0.23.0",
+    "chalk": "^4.1.2",
+    "fast-json-stable-stringify": "^2.1.0",
+    "http-status-codes": "^2.1.4",
+    "joi": "^17.4.2",
+    "json5": "^2.2.0",
+    "lodash": "^4.17.21",
+    "luxon": "^2.0.2",
+    "prettier": "^2.4.1",
+    "tslib": "^2.3.1",
+    "uuid": "^8.3.2",
+    "yargs": "^17.2.1"
   }
 }
