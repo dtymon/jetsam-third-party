@@ -1,6 +1,6 @@
 {
   "name": "@jetsam/third-party",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "jetsam - Centralised 3rd-party dependency management for jetsam packages",
   "repository": "github:dtymon/jetsam-third-party",
   "bugs": "https://github.com/dtymon/jetsam-third-party/issues",
