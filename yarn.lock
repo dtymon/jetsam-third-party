@@ -528,10 +528,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@jetsam/tooling@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jetsam/tooling/-/tooling-1.0.0.tgz#51599e80d3caca680aff0edfd0eebccd0f270ba0"
-  integrity sha512-SyNLKphuAhqylKBC8tRtFO18XoNA4iGHSpFFVIgh/hRYBDMpy+U4fVsTzghW623Rh7GLFRlkEuAuFcVReX3I7Q==
+"@jetsam/tooling@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@jetsam/tooling/-/tooling-1.1.0.tgz#a7810d6a30bae641693a80194bd767a5ff68ea02"
+  integrity sha512-c1NH6mFnALMsmnEi85gIDnKBbuJNsfKVpnNqUdd1Ep04pwpTyngIPdRfjjWCKfCLWF0weutbshezZetbVFchlg==
   dependencies:
     "@microsoft/tsdoc" "^0.13.2"
     "@microsoft/tsdoc-config" "^0.15.2"
