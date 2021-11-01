@@ -1,3 +1,10 @@
+## 1.2.0
+
+### Dependencies
+
+- `[@jetsam/tooling]` 1.1.1 ➞ 1.3.0
+- `[axios]` 0.23.0 ➞ 0.24.0
+
 ## 1.1.0
 
 ### Dependencies
